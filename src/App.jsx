@@ -26,7 +26,14 @@ function App() {
         </p>
       </div>
 	  <div className="container test">
-		<Container count2={count} setCount={setCount} />
+		<Container/>
+	  </div>
+	  <div className="container test2">
+		<Container/>
+	  </div>
+	  <div className="container test3">
+		<Container/>
+		<Container/>
 	  </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
